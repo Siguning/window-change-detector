@@ -1,0 +1,10 @@
+[package]
+name = "startup"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+windows = { version = "0.61.1", features = ["Win32", "Win32_UI", "Win32_UI_WindowsAndMessaging", "Win32_UI_Input", "Win32_System", "Win32_UI_Input_KeyboardAndMouse", "Win32_System_SystemInformation"] }
+chrono = "0.4.40"
+ctrlc = "3.4.6"
+unicode-width = "0.2.0"
